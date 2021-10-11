@@ -11,4 +11,13 @@ public class TestCalc {
 //        System.out.println(add);
         Assert.assertEquals(3,add);
     }
+
+    @Test
+    public void subtractTest(){
+        Calc c = new Calc();
+        int subtract = c.subtract(3, 2);
+//        System.out.println(add);
+        Assert.assertEquals(1,subtract);
+    }
+
 }
